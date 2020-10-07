@@ -4,6 +4,57 @@ body {
 
 h1 {
     text-align: center;
+    border: #000000 solid 10px;
+    border-radius: 20%;
+    font-size: 25px;
+    color: red;
+    position: relative;
+    width: 30%;
+    animation-name: title;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+}
+
+@keyframes title {
+    0% {
+        color: red; 
+        left: 0px; 
+        top: 0px;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    25% {
+        color: orange;
+        font-size: 30px;
+        font-family: cursive;
+        left: 1024px;
+        top: 0px;
+
+    }
+    50% {
+        color: yellow;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        right: 1024px;
+        top: 0px;
+    }
+    75% {
+        color: brown;
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        right: 450px;
+        top: 0px;
+    }
+    100% {
+        color: red;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: solid black;
+        left: -450px;
+        top: 0px;
+    }
+
 }
 
 h3 {
@@ -13,7 +64,19 @@ h3 {
     /*First-step Animation*/
     animation-name: pbjtime;
     animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-out;
+    /*animation-direction: normal; */
+    animation-fill-mode: backwards;
+    /*Animation Shorthand*/
+    animation: pbjtime 4s ease-out 5s 3;
 
+
+}
+
+img {
+    border: solid #000000;
 }
 
 @keyframes pbjtime {
