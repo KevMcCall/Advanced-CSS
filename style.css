@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #8b171a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    /*First-step Animation*/
+    animation-name: pbjtime;
+    animation-duration: 4s;
+
+}
+
+@keyframes pbjtime {
+    0% {
+        color: #8b171a;
+        font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    25% {
+        color: #8b171a;
+        font-size: 15px;
+    font-family: cursive;
+    }
+    50% {
+        color: #000000;
+        font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    75% {
+        color: red;
+        font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    100% {
+        color: #8b171a;
+        font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid black;
+    }
+
+}
+
