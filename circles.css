@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue
+}
+
+
+
+
+
+.hover, .rotate, .translateX, .threeD, .skew, .translateY, .scale {
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color:#000000;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-property: color, background-color, transform;
+    transition-duration: 4s;
+
+
+}
+
+.hover:hover {
+    color: yellow;
+    background-color: lightcoral;
+}
+
+.rotate:hover {
+    color: silver;
+    background-color: turquoise;
+    transform: rotate(360deg);
+
+}
+
+.translateX:hover {
+    color: red;
+    background-color: green;
+    transform: translateX(20px);
+
+}
+
+.translateY:hover {
+    color: green;
+    background-color: black;
+    transform: translateY(40px);
+}

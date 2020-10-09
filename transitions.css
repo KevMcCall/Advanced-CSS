@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+}
+
+.head {
+    height: 250px;
+    width: 300px;
+    background-color: red;
+    transition-property: color, background, font-family, font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    transition-timing-function: 5s;
+}
+
+
+
+/* Trigger With A Pseudo-Class*/
+
+.head:hover {
+    background-color: silver;
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
