@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circles Transitions</title>
+    <title>Selectors</title>
     <!--Bootstrap CDN Start-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -17,8 +18,65 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <!--Bootstrap CDN End-->
-    <link rel="stylesheet" type="text/css" href="circles.css">
+
+    <style>
+        .nav {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .section1 h1 {
+            color: gold;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+
+        .section1 p {
+            color: green;
+            font-size: 25px;
+            transition-property: color, transform;
+            transition-duration: 2s;
+        }
+
+        .section1 p:hover {
+            transform: translateX(-20px);
+        }
+
+        h1 {
+            color: red;
+        }
+
+        .section2 h1 {
+            color: aqua;
+        }
+
+        .section3 p {
+            color: green;
+            font-size: 30px;
+        }
+
+        .section2 ul>li {
+            color: brown;
+            font-size: 24px;
+            list-style-type: none;
+            transition-property: color, transform;
+            transition-duration: 4s;
+        }
+
+        .section2 ul li:hover {
+            color: silver;
+            transform: translateX(40px);
+        }
+
+        .section2 ul .spanish {
+            color: green;
+
+        }
+    </style>
 </head>
+
+
+
 <body>
     <div class="container-fluid">
         <div class="row">
@@ -28,10 +86,10 @@
                         <a class="nav-link" href="">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="selectors.html">Selectors</a>
+                        <a class="nav-link" href="index.html">PB&J</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">PB&J</a>
+                        <a class="nav-link" href="https://kevmccall.github.io/Advanced-CSS/circles.html">Circles</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://kevmccall.github.io/Advanced-CSS/caranimation.html">Car
@@ -52,64 +110,48 @@
                                 CSS</a>
                             <a class="dropdown-item" href="https://kevmccall.github.io/Semantic-HTML/">Semantic HTML</a>
                             <div class="dropdown-divider">
-                            <!--</div> <a class="dropdown-item" href="#">Separated link</a>-->
-                        </div>
+                                <!--</div> <a class="dropdown-item" href="#">Separated link</a>-->
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-<h1>Circles Transitions</h1>
 
-<div class="container">
-<div class="row">
-
-
-<div class="hover">
-Hover Me!
-</div>
-
-<div class="rotate">
-    Roate Me!
+    <div class="section1">
+        <h1> Hello World!</h1>
+        <p>This is the English Language</p>
     </div>
-    
-    <div class="translateX">
-    TranslateX!
+
+    <h1>Hola Mundo!</h1>
+    <p>This is the Spanish Language.</p>
+
+    <div class="section2">
+        <h1>Bonjour le Monde!</h1>
+        <p>This is the French Language.</p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li class=spanish> Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
     </div>
+
+    <div class="section3">
+        <h1>مرحبا بالعالم</h1>
+        <p>This is the Arabic Language. </p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li>Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
     </div>
-    
-
-    <div class="row">
-        
-    <div class="threeD">
-        3D
-    </div>
-            
-            
-            <div class="skew">
-            Skew Me!
-            </div>
-            
-            
-            
-            <div class="translateY">
-            TranslateY!
-            </div>
-            
-            
-            
-            <div class="scale">
-            Scale Me!
-            </div>
-
-</div>
-</div>
-</div>
-
-
-
 
 
 </body>
+
 </html>

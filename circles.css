@@ -2,7 +2,10 @@ body {
     background-color: lightblue
 }
 
-
+.nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
@@ -59,6 +62,6 @@ body {
     transform: scale(2, 3);
 }
 
-.threeD {
+/*.threeD {
     
-}
+}*Haven't worked on this yet/
